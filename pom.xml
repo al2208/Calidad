@@ -1,0 +1,72 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ConsaludCalidad</groupId>
+  <artifactId>Calidad</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Calidad</name>
+  <description>AutomatizaciónCalidad</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-java</artifactId>
+  		<version>3.141.59</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>6.14.3</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>commons-io</groupId>
+  		<artifactId>commons-io</artifactId>
+  		<version>2.6</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.relevantcodes</groupId>
+  		<artifactId>extentreports</artifactId>
+  		<version>2.41.2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-surefire-plugin</artifactId>
+  		<version>3.0.0-M2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.hamcrest</groupId>
+  		<artifactId>hamcrest-core</artifactId>
+  		<version>1.3</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.commons</groupId>
+  		<artifactId>commons-lang3</artifactId>
+  		<version>3.8.1</version>
+  	</dependency>
+  </dependencies>
+  <build>
+<plugins>
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-surefire-plugin</artifactId>
+<version>3.0.0-M2</version>
+<configuration>
+<suiteXmlFiles>
+<!-- <suiteXmlFile>src/test/resources/${fileName}</suiteXmlFile> --> 
+ <!--<suiteXmlFile>src/test/resources/MisPrestaciones.xml</suiteXmlFile> --> 
+ <suiteXmlFile>src/test/resources/BonoGes.xml</suiteXmlFile>  
+ <!--<suiteXmlFile>src/test/resources/ClaveBeneficiario.xml</suiteXmlFile> --> 
+<!--<suiteXmlFile>src/test/resources/OrientacionHospitalaria.xml</suiteXmlFile>-->
+</suiteXmlFiles>
+
+<systemPropertyVariables>
+	  <executionBrowser>${Browser}</executionBrowser>
+	  <appURL>${urlToBeTested}</appURL>
+</systemPropertyVariables>
+
+</configuration>
+</plugin>
+</plugins>
+</build>
+<properties>
+	<proyect.build.soureceEncoding>UTF-8</proyect.build.soureceEncoding>
+</properties>	
+</project>

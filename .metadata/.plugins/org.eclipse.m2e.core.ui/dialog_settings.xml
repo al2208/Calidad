@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\aascencio.ex\Desktop\PRUEBA_FINAL"/>
+			<item value="C:\selenium\WorkSpaces_Automation\Calidad"/>
+			<item value="C:\Users\aascencio.ex\Desktop\Sucursal_Virtual2"/>
+			<item value="C:\Users\aascencio.ex\Desktop\Calidad"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

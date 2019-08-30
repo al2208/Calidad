@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\aascencio.ex\Desktop\Calidad"/>
+		<item value="C:\Users\aascencio.ex\Desktop\Calidad\Calidad"/>
+		<item value="C:\selenium\WorkSpaces_Automation"/>
+		<item value="C:\selenium\WorkSpaces_Automation\Calidad"/>
+		<item value="C:\selenium\WorkSpaces_Automation\Calidad\Calidad"/>
+	</list>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="498"/>
+		<item key="DIALOG_Y_ORIGIN" value="218"/>
+	</section>
+</section>

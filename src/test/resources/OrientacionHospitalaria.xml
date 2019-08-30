@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" ><suite name="Proyecto Calidad">
+	
+	<parameter name="rut1" value="15809509-2"/>
+	<parameter name="rut2" value="13101497-k"/>
+	<parameter name="rut3" value="8734329-4"/>
+	<parameter name="clave" value="canvir"/>
+	<parameter name="seleccionBeneficiario1" value="FELIPE WLADIMIR JIMENEZ PARRA"/>   
+	<parameter name="seleccionBeneficiario2" value="CRISTOBAL BOBADILA GONZALEZ"/>
+	<parameter name="mailAfiliado" value="alejandro.ascencio@consalud.cl"/> 
+	<parameter name="celAfiliado" value="992235144"/> 
+	<test name="Prueba de Automatización">
+		<classes>
+			<class name="cl.consalud.cal.ejecucion.test.Test_Orientacion_Hospitalaria_GC">
+				<methods>
+				 <include name="BeneficiarioConPresupuestoVigente"/> 
+					<!-- <include name="BeneficiarioSinPresupuestoVigente" /> -->
+					</methods>
+					</class>
+
+<!--    			<class name="cl.consalud.cal.ejecucion.test.Test_CV_WEBPER_000051_GC"> 
+				<methods>
+					<include name="AfiliadoConPrestaciones"/>
+					<include name="AfiliadoSinPrestaciones"/>
+					<include name="aca_puede_ir_otro" /> 
+				</methods>
+  			</class > -->
+		</classes> 
+		
+	</test></suite> 
