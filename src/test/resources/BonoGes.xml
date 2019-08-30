@@ -17,14 +17,6 @@
 					 <!--<include name="AfiliadoSinPrestaciones" /> -->
 					</methods>
 					</class>
-
-<!--    			<class name="cl.consalud.cal.ejecucion.test.Test_CV_WEBPER_000051_GC"> 
-				<methods>
-					<include name="AfiliadoConPrestaciones"/>
-					<include name="AfiliadoSinPrestaciones"/>
-					<include name="aca_puede_ir_otro" /> 
-				</methods>
-  			</class > -->
 		</classes> 
 		
 	</test></suite> 

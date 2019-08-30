@@ -51,9 +51,9 @@
 <configuration>
 <suiteXmlFiles>
 <!-- <suiteXmlFile>src/test/resources/${fileName}</suiteXmlFile> --> 
- <!--<suiteXmlFile>src/test/resources/MisPrestaciones.xml</suiteXmlFile> --> 
- <suiteXmlFile>src/test/resources/BonoGes.xml</suiteXmlFile>  
- <!--<suiteXmlFile>src/test/resources/ClaveBeneficiario.xml</suiteXmlFile> --> 
+<!--<suiteXmlFile>src/test/resources/MisPrestaciones.xml</suiteXmlFile> --> 
+	<suiteXmlFile>src/test/resources/BonoGes.xml</suiteXmlFile>  
+<!--<suiteXmlFile>src/test/resources/ClaveBeneficiario.xml</suiteXmlFile> --> 
 <!--<suiteXmlFile>src/test/resources/OrientacionHospitalaria.xml</suiteXmlFile>-->
 </suiteXmlFiles>
 
